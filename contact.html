@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UniFind - Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="home-page">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="home.html">
+        <img src="images/lg.png" alt="logo" width="34" height="34" style="object-fit:contain; border-radius:8px;">
+        UniFind<span class="brand-dot">.</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="browse.html">Browse Items</a></li>
+          <li class="nav-item"><a class="nav-link" href="report.html">Report Item</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+        <button id="logoutBtn" class="btn btn-brand btn-sm">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE TITLE -->
+  <div class="container py-4 text-center">
+    <h1 class="fw-bold contact-title">Contact Us</h1>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="container pb-5">
+    <div class="row g-4 justify-content-center align-items-start">
+
+      <!-- LEFT CARD -->
+      <div class="col-lg-6">
+        <div class="card contact-card p-4 h-100">
+          <h3 class="fw-bold mb-3">Get in touch</h3>
+          <p class="small-muted mb-4">
+            If you have any questions or need further assistance, please feel free
+            to reach out to us through the following contact details:
+          </p>
+
+          <div class="contact-info-item mb-3">
+            <span class="contact-icon">📍</span>
+            <span>Main Premises, Rajarata University of Sri Lanka</span>
+          </div>
+
+          <div class="contact-info-item mb-3">
+            <span class="contact-icon">📞</span>
+            <span>011 - 6852497, 071-6512492</span>
+          </div>
+
+          <div class="contact-info-item mb-3">
+            <span class="contact-icon">✉️</span>
+            <span>rajaratauniversity@rjt.ac.lk</span>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-icon">🏢</span>
+            <span>Office Hours: 8.30 AM - 4.30 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <div class="col-lg-5">
+        <div class="card message-card p-4">
+          <h3 class="fw-bold mb-4">Send us a message</h3>
+
+          <form id="contactForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label class="form-label">Your name</label>
+              <input type="text" name="name" class="form-control" placeholder="Full name" required>
+              <div class="invalid-feedback">Name is required</div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Your email</label>
+              <input type="email" name="email" class="form-control" placeholder="yourmail@emailly.com" required>
+              <div class="invalid-feedback">Valid email is required</div>
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label">How can we help?</label>
+              <textarea name="message" class="form-control" rows="5" placeholder="Enter your message here." required></textarea>
+              <div class="invalid-feedback">Message is required</div>
+            </div>
+
+            <button type="submit" class="btn btn-contact w-100">Send my message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="auth-footer text-center pb-4 border-top">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 pt-3">
+        <div>© 2026 UniFind. Rajarata University of Sri Lanka.</div>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Campus Security</a>
+          <a href="#">Help Center</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <script type="module" src="js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
