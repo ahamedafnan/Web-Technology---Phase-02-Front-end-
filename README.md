@@ -37,6 +37,7 @@ UniFind/
 -index.html
 -profile.html
 -register.html
+
 -report.html
 
 ## How to Run the Project
