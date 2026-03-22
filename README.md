@@ -12,7 +12,7 @@ This website allows users to browse boarding place details, view profiles, regis
 - Responsive homepage design
 - User registration page
 - User profile page
-- Boarding or hostel browsing section
+- Lost or found Items browing section
 - Details page for more information
 - Contact page
 - Report page
